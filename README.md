@@ -10,7 +10,7 @@ It includes a full pipeline: upload → detect → visualize — with bounding b
 
 The following diagram illustrates how AWS services interact in this project:
 
-![Architecture](https://github.com/Yuehan07/rekognition-label-detector/raw/main/e22ceb15-d5e2-437e-8a90-cefd8099162b.png)
+![Architecture](https://github.com/Yuehan07/rekognition-label-detector/raw/main/architecture.png)
 
 ---
 
@@ -56,7 +56,8 @@ Your AWS region is set correctly (e.g., ap-southeast-2)
 
 ### 📷 Example Output
 This image was analyzed using Amazon Rekognition. It detects multiple objects including people, cars, wheels, and clothing with bounding boxes and confidence scores.
-![Rekognition Output](https://github.com/olivia-chen/rekognition-label-detector/raw/main/rekognition_output.png)
+![Rekognition Output](https://github.com/Yuehan07/rekognition-label-detector/raw/main/rekognition_output.png)
+
 
 
 🏷️ Detected Labels (Top Results):
