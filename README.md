@@ -25,6 +25,30 @@ The following diagram illustrates how AWS services interact in this project:
 
 ---
 
+## 📷 Example Output
+
+This image was analyzed using Amazon Rekognition. It detects multiple objects including people, cars, wheels, and clothing with bounding boxes and confidence scores:
+
+![Rekognition Output](https://github.com/Yuehan07/rekognition-label-detector/raw/main/rekognition_output.png)
+
+---
+
+## 🏷️ Detected Labels (Top Results)
+
+| Label     | Confidence (%) |
+|-----------|----------------|
+| Person    | 98.27          |
+| Car       | 94.61          |
+| Building  | 91.50          |
+| Shoe      | 89.12          |
+| Wheel     | 85.77          |
+| Clothing  | 83.45          |
+| Street    | 79.88          |
+
+> *Note: Confidence scores and results may vary depending on the input image.*
+
+---
+
 ## 🚀 How to Run
 
 ### ✅ Prerequisites
@@ -40,26 +64,6 @@ The following diagram illustrates how AWS services interact in this project:
 git clone https://github.com/Yuehan07/rekognition-label-detector.git
 cd rekognition-label-detector
 pip install -r requirements.txt
-
-✅ Run the App
-bash
-Copy
-Edit
-python test.py
-Make sure:
-
-The image (e.g., test.png) is uploaded to your S3 bucket
-
-The bucket name and photo filename in your script match the actual S3 settings
-
-Your AWS region is set correctly (e.g., ap-southeast-2)
-
-### 📷 Example Output
-
-This image was analyzed using Amazon Rekognition. It detects multiple objects including people, cars, wheels, and clothing with bounding boxes and confidence scores:
-
-![Rekognition Output](https://github.com/Yuehan07/rekognition-label-detector/raw/main/rekognition_output.png)
-
 
 ### 🏷️ Detected Labels (Top Results)
 
@@ -92,4 +96,3 @@ This image was analyzed using Amazon Rekognition. It detects multiple objects in
 👋 Hi! I'm **Olivia**, an aspiring cloud and product enthusiast exploring AWS services through hands-on projects.
 
 Feel free to ⭐ star or 🍴 fork the repository if you find it useful, or connect with me on [GitHub](https://github.com/Yuehan07)!
-
