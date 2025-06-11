@@ -10,7 +10,7 @@ It includes a full pipeline: upload → detect → visualize — with bounding b
 
 The following diagram illustrates how AWS services interact in this project:
 
-![Architecture](https://github.com/Yuehan07/rekognition-label-detector/raw/main/architecture.png)
+![Architecture](https://github.com/Yuehan07/rekognition-label-detector/blob/main/architecture)
 
 ---
 
@@ -47,7 +47,28 @@ This image was analyzed using Amazon Rekognition. It detects multiple objects in
 
 > *Note: Confidence scores and results may vary depending on the input image.*
 
----
+## 🏷️ Detected Labels (Top Results)
+
+| Label     | Confidence (%) |
+|-----------|----------------|
+| Person    | 98.27          |
+| Car       | 94.61          |
+| Building  | 91.50          |
+| Shoe      | 89.12          |
+| Wheel     | 85.77          |
+| Clothing  | 83.45          |
+| Street    | 79.88          |
+
+> *Note: Confidence scores and results may vary depending on the input image.*
+
+### 🧠 Learning Outcomes
+
+- 🔧 How to use `boto3` to interact with Amazon Rekognition  
+- 📦 How to read images from S3 using Python  
+- 📊 How to display detected labels with bounding boxes using `matplotlib`  
+- 🔐 How to resolve IAM and S3 permission issues  
+- 🌏 How to ensure region alignment between S3 and Rekognition
+
 
 ## 🚀 How to Run
 
@@ -64,28 +85,4 @@ This image was analyzed using Amazon Rekognition. It detects multiple objects in
 git clone https://github.com/Yuehan07/rekognition-label-detector.git
 cd rekognition-label-detector
 pip install -r requirements.txt
-
-
-🏷️ Detected Labels (Top Results)
-Label	Confidence (%)
-Person	98.27
-Car	94.61
-Building	91.50
-Shoe	89.12
-Wheel	85.77
-Clothing	83.45
-Street	79.88
-
-Note: Confidence scores and results may vary depending on the input image.
-
-🧠 Learning Outcomes
-🔧 How to use boto3 to interact with Amazon Rekognition
-
-📦 How to read images from S3 using Python
-
-📊 How to display detected labels with bounding boxes using matplotlib
-
-🔐 How to resolve IAM and S3 permission issues
-
-🌏 How to ensure region alignment between S3 and Rekognition
 
