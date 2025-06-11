@@ -47,20 +47,6 @@ This image was analyzed using Amazon Rekognition. It detects multiple objects in
 
 > *Note: Confidence scores and results may vary depending on the input image.*
 
-## 🏷️ Detected Labels (Top Results)
-
-| Label     | Confidence (%) |
-|-----------|----------------|
-| Person    | 98.27          |
-| Car       | 94.61          |
-| Building  | 91.50          |
-| Shoe      | 89.12          |
-| Wheel     | 85.77          |
-| Clothing  | 83.45          |
-| Street    | 79.88          |
-
-> *Note: Confidence scores and results may vary depending on the input image.*
-
 ### 🧠 Learning Outcomes
 
 - 🔧 How to use `boto3` to interact with Amazon Rekognition  
