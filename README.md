@@ -55,37 +55,41 @@ The bucket name and photo filename in your script match the actual S3 settings
 Your AWS region is set correctly (e.g., ap-southeast-2)
 
 ### 📷 Example Output
-This image was analyzed using Amazon Rekognition. It detects multiple objects including people, cars, wheels, and clothing with bounding boxes and confidence scores.
+
+This image was analyzed using Amazon Rekognition. It detects multiple objects including people, cars, wheels, and clothing with bounding boxes and confidence scores:
+
 ![Rekognition Output](https://github.com/Yuehan07/rekognition-label-detector/raw/main/rekognition_output.png)
 
 
+### 🏷️ Detected Labels (Top Results)
 
-🏷️ Detected Labels (Top Results):
-Label	Confidence (%)
-Person	98.27
-Car	94.61
-Building	91.50
-Shoe	89.12
-Wheel	85.77
-Clothing	83.45
-Street	79.88
+| Label     | Confidence (%) |
+|-----------|----------------|
+| Person    | 98.27          |
+| Car       | 94.61          |
+| Building  | 91.50          |
+| Shoe      | 89.12          |
+| Wheel     | 85.77          |
+| Clothing  | 83.45          |
+| Street    | 79.88          |
 
-Note: Confidence scores and results may vary depending on the input image.
+> *Note: Confidence scores and results may vary depending on the input image.*
 
-🧠 Learning Outcomes
-🔧 How to use boto3 to interact with Amazon Rekognition
+---
 
-📦 How to read images from S3 using Python
+## 🧠 Learning Outcomes
 
-📊 How to display detected labels with bounding boxes using matplotlib
+- 🔧 How to use `boto3` to interact with Amazon Rekognition
+- 📦 How to read images from S3 using Python
+- 📊 How to display detected labels with bounding boxes using `matplotlib`
+- 🔐 How to resolve IAM and S3 permission issues
+- 🌏 How to ensure region alignment between S3 and Rekognition
 
-🔐 How to resolve IAM and S3 permission issues
+---
 
-🌏 How to ensure region alignment between S3 and Rekognition
+## 🧑‍💻 Author
 
-🧑‍💻 Author
-👋 Hi! I'm Olivia, an aspiring cloud and product enthusiast exploring AWS services through hands-on projects.
+👋 Hi! I'm **Olivia**, an aspiring cloud and product enthusiast exploring AWS services through hands-on projects.
 
-Feel free to ⭐ star or 🍴 fork the repository if you find it useful, or connect with me on GitHub!
-
+Feel free to ⭐ star or 🍴 fork the repository if you find it useful, or connect with me on [GitHub](https://github.com/Yuehan07)!
 
