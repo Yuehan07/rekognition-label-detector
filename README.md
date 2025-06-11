@@ -20,4 +20,8 @@ A simple demo that uses **Amazon Rekognition** to detect labels in an image stor
 pip install -r requirements.txt
 python test.py
 
-![image](https://github.com/user-attachments/assets/56fc049e-94c9-4230-9f39-83028e33e888)
+## 🔍 Example Output
+
+This image was analyzed using Amazon Rekognition. It detects multiple objects including people, cars, wheels, and clothing with high confidence:
+
+![Rekognition Output](rekognition_output.png)
